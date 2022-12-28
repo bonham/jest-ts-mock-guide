@@ -7,7 +7,7 @@ jest.mock('../AnotherCircle')
 
 test('one', () => {
 
-    jest.spyOn(AnotherCircle.prototype,'circumfence').mockImplementation(jest.fn<() => number>().mockReturnValue(99))
+    jest.spyOn(AnotherCircle.prototype,'circumference').mockImplementation(jest.fn<() => number>().mockReturnValue(99))
 
     const f = useAnotherCircle()
     expect(f).toBeCloseTo(99)

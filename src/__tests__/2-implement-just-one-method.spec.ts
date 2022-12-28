@@ -5,11 +5,11 @@ jest.mock('../Circle')
 const mockedCircle = jest.mocked(Circle);
 
 // Circle object will be mocked and all methods return undefined. Except we will set a return value for 
-// 'circumfence()' - per test
+// 'circumference()' - per test
 
 test('mock object with just one method implemented 1', () => {
 
-    mockedCircle.prototype.circumfence.mockReturnValue(66)
+    mockedCircle.prototype.circumference.mockReturnValue(66)
 
     const f = useCircle()
     expect(f).toBeCloseTo(66)
@@ -18,7 +18,7 @@ test('mock object with just one method implemented 1', () => {
 
 test('mock object with just one method implemented 2', () => {
 
-    mockedCircle.prototype.circumfence.mockReturnValue(77)
+    mockedCircle.prototype.circumference.mockReturnValue(77)
 
     const f = useCircle()
     expect(f).toBeCloseTo(77)

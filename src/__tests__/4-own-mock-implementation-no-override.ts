@@ -3,7 +3,7 @@ import { useCircle } from '../useCircle';
 jest.mock('../Circle', () => {
     return function () {
         return {
-            circumfence: jest.fn().mockReturnValue(44),
+            circumference: jest.fn().mockReturnValue(44),
             area: jest.fn()
         }
     }

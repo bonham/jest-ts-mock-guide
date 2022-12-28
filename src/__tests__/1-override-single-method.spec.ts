@@ -7,7 +7,7 @@ import Circle  from '../Circle';
 
 test('one', () => {
 
-        jest.spyOn(Circle.prototype,'circumfence').mockImplementation(jest.fn<() => number>().mockReturnValue(88))
+        jest.spyOn(Circle.prototype,'circumference').mockImplementation(jest.fn<() => number>().mockReturnValue(88))
 
         const f = useCircle()
         expect(f).toBeCloseTo(88)

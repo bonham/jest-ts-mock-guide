@@ -6,7 +6,7 @@ class Circle {
         this.radius = r
     } 
 
-    circumfence() :number {
+    circumference() :number {
         return 2 * 3.14 * this.radius
     }
 

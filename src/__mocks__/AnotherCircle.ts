@@ -6,7 +6,7 @@ export default class AnotherCircle {
 
     }
 
-    circumfence() { return 10 }
+    circumference() { return 10 }
 
     area() { return 20}
 }
@@ -21,6 +21,6 @@ export default class AnotherCircle {
                 
 //             }
 //         }),
-//         circumfence: jest.fn().mockReturnValue(77)
+//         circumference: jest.fn().mockReturnValue(77)
 //     }
 // })
