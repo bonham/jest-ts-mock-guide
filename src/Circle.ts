@@ -11,4 +11,4 @@ class Circle {
     }
 
 }
-export { Circle }
+export default  Circle

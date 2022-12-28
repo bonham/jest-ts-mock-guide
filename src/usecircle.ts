@@ -1,9 +1,9 @@
-import { Circle } from "./Circle";
+import Circle from "./Circle";
 
 function usecircle() {
 
-    const c1 = new Circle(3)
-    const cf = c1.circumfence()
+    const c1: Circle = new Circle(3)
+    const cf: number = c1.circumfence()
     return cf
 
 }
