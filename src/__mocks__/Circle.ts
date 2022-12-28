@@ -1,12 +1,12 @@
 import { jest } from '@jest/globals';
 
-class Circle {
-    constructor () {
-
+export default jest.fn().mockImplementation(() => {
+    return {
+        default: jest.fn().mockImplementation(()=>{
+            return {
+                
+            }
+        }),
+        circumfence: jest.fn().mockReturnValue(77)
     }
-    circumfence () {
-        return 0
-    }
-}
-
-export default Circle
+})
