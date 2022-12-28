@@ -1,4 +1,4 @@
-import { beforeEach, expect, jest, test } from '@jest/globals';
+import { expect, jest, test } from '@jest/globals';
 import { useCircle } from '../useCircle';
 jest.mock('../Circle', () => {
     return function () {
