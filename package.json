@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node dist/usecircle.js",
+    "start": "node dist/useCircle.js",
     "test": "jest",
     "build": "tsc -p tsconfig.build.json"
   },

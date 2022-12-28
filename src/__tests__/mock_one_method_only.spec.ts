@@ -1,5 +1,5 @@
 import { expect, jest, test } from '@jest/globals';
-import { usecircle } from '../usecircle';
+import { useCircle } from '../useCircle';
 import Circle  from '../Circle';
 
 // We are using the original class and mock one method definition in the class
@@ -9,7 +9,7 @@ test('one', () => {
 
         jest.spyOn(Circle.prototype,'circumfence').mockImplementation(jest.fn<() => number>().mockReturnValue(88))
 
-        const f = usecircle()
+        const f = useCircle()
         expect(f).toBeCloseTo(88)
     })
 

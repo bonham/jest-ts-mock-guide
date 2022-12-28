@@ -1,11 +1,10 @@
 import Circle from "./Circle";
 
-function usecircle() {
+function useCircle() {
 
-    const c1: Circle = new Circle(3)
+    const c1: Circle = new Circle(1)
     const cf: number = c1.circumfence()
     return cf
 
 }
-export { usecircle }
-console.log(usecircle())
+export { useCircle }
