@@ -1,7 +1,7 @@
 import { expect, jest, test } from '@jest/globals';
-import Circle from '../Circle';
-import { useCircle } from '../useCircle'
-jest.mock('../Circle')
+import Circle from '../Circle.js';
+import { useCircle } from '../usecircle.js'
+jest.mock('../Circle.js')
 const mockedCircle = jest.mocked(Circle);
 
 // Circle object will be mocked and all methods return undefined. Except we will set a return value for 

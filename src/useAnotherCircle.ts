@@ -1,4 +1,4 @@
-import AnotherCircle from "./AnotherCircle";
+import AnotherCircle from "./AnotherCircle.js";
 
 function useAnotherCircle() {
 

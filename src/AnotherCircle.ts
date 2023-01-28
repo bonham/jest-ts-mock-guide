@@ -4,9 +4,9 @@ class Circle {
 
     constructor(r: number) {
         this.radius = r
-    } 
+    }
 
-    circumference() :number {
+    circumference(): number {
         return 2 * 3.14 * this.radius
     }
 
@@ -15,4 +15,4 @@ class Circle {
     }
 
 }
-export default  Circle
+export default Circle

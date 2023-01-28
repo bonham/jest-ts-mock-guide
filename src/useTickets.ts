@@ -1,4 +1,4 @@
-import { TicketBroker } from "./TicketBroker";
+import { TicketBroker } from "./TicketBroker.js";
 
 export async function main() {
 

@@ -1,6 +1,6 @@
 import { expect, jest, test } from '@jest/globals';
-import { useCircle } from '../useCircle';
-jest.mock('../Circle', () => {
+import { useCircle } from '../usecircle.js';
+jest.mock('../Circle.js', () => {
     return function () {
         return {
             circumference: jest.fn().mockReturnValue(44),
